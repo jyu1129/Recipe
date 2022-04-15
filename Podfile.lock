@@ -1,0 +1,46 @@
+PODS:
+  - FormTextField (3.1.0)
+  - Kingfisher (7.2.1)
+  - Realm (10.24.0):
+    - Realm/Headers (= 10.24.0)
+  - Realm/Headers (10.24.0)
+  - RealmSwift (10.24.0):
+    - Realm (= 10.24.0)
+  - SnapKit (5.0.1)
+  - XMLParsing (0.0.3)
+
+DEPENDENCIES:
+  - FormTextField
+  - Kingfisher
+  - RealmSwift (~> 10)
+  - SnapKit
+  - XMLParsing (from `https://github.com/ShawnMoore/XMLParsing.git`)
+
+SPEC REPOS:
+  trunk:
+    - FormTextField
+    - Kingfisher
+    - Realm
+    - RealmSwift
+    - SnapKit
+
+EXTERNAL SOURCES:
+  XMLParsing:
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+CHECKOUT OPTIONS:
+  XMLParsing:
+    :commit: 594272e4df40798c53ae1735ee65f3f387291670
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+SPEC CHECKSUMS:
+  FormTextField: 229e496b8dae002c5062ea5e961e2140528782e2
+  Kingfisher: 7c084bebf7d548c623ad41bcf765fb200efed369
+  Realm: 5d6f84e3f65d4efa204d46b461e5bbbbbbf84c6c
+  RealmSwift: 9022754b93fad23e1ffc950c93574c5b7899bd51
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  XMLParsing: 085edb6fa22c71d6b53a79299f990a91e7414d19
+
+PODFILE CHECKSUM: acfae93b22de51ac27ef959c41dd71ab1b79ac7d
+
+COCOAPODS: 1.11.2
