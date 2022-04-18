@@ -59,6 +59,11 @@ class RecipeTableViewCell: UITableViewCell {
         stackViewContainer.spacing = 15
         
         imageViewRecipe.contentMode = .scaleAspectFit
+        
+        labelRecipe.setContentCompressionResistancePriority(.defaultLow, for: .horizontal)
+        labelRecipe.setContentHuggingPriority(.defaultLow, for: .horizontal)
+        
+        labelRecipeType.setContentHuggingPriority(.defaultHigh, for: .horizontal)
     }
     
     private func addView() {

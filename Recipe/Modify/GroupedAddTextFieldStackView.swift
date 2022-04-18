@@ -84,6 +84,7 @@ extension GroupedAddTextFieldStackView {
     
     func getTexts() -> List<String> {
         let texts: List<String> = List<String>()
+        
         for stackView in stackViewAddTextFields {
             if let text = stackView.textField.text {
                 texts.append(text)
